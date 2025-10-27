@@ -1,0 +1,26 @@
+{
+    "name": "erfanmohseni20/custom-laravel-api-response",
+    "description": "A fluent API response and request handler for Laravel",
+    "keywords": ["laravel", "api", "response"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelApiResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelApiResponse\\Providers\\ApiResponseServiceProvider"
+            ],
+            "aliases": {
+                "ApiResponse": "LaravelApiResponse\\Facades\\ApiResponseFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
