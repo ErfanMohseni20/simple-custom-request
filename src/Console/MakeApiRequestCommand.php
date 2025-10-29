@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelApiResponse\Console;
+namespace ErfanMohseni20\SimpleCustomRequest\Console;
 
 use Illuminate\Console\GeneratorCommand;
 

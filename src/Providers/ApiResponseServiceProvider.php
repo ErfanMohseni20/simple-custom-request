@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelApiResponse\Providers;
+namespace ErfanMohseni20\SimpleCustomRequest\Providers;
 
-use LaravelApiResponse\ApiResponseBuilder;
 use Illuminate\Support\ServiceProvider;
+use ErfanMohseni20\SimpleCustomRequest\ApiResponseBuilder;
 
 class ApiResponseServiceProvider extends ServiceProvider
 {
@@ -18,7 +18,7 @@ class ApiResponseServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \LaravelApiResponse\Console\MakeApiRequestCommand::class,
+                \ErfanMohseni20\SimpleCustomRequest\Console\MakeApiRequestCommand::class,
             ]);
         }
     }

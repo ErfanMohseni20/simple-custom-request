@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelApiResponse\Facades;
+namespace ErfanMohseni20\SimpleCustomRequest\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

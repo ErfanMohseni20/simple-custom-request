@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelApiResponse;
+namespace ErfanMohseni20\SimpleCustomRequest;
 
 class ApiResponse
 {
