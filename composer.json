@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Erfan Mohseni",
-            "email": "your-email@example.com"
+            "email": "erfanmohseni406@gmail.com"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ErfanMohseni20\\SimpleCustomRequest\\ServiceProvider"
+                "ErfanMohseni20\\src\\Providers\\ApiResponseServiceProvider"
             ]
         }
     },
