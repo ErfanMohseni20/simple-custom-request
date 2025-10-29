@@ -6,7 +6,7 @@ use Illuminate\Console\GeneratorCommand;
 
 class MakeApiRequestCommand extends GeneratorCommand
 {
-    protected $name = 'make:api-request';
+    protected $name = 'make:ApiRequest';
     protected $description = 'Create a new API request class';
     protected $type = 'Request';
 
